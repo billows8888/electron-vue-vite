@@ -1,0 +1,25 @@
+.app-layout {
+  .logo {
+    padding: 9px;
+    border-bottom: 1px solid #ededed;
+
+    img {
+      width: calc(var(--header-height) - 19px);
+      height: calc(var(--header-height) - 19px);
+    }
+  }
+
+  .app-header {
+    height: var(--header-height);
+    border-bottom: 1px solid #ededed;
+  }
+
+  .app-sider {
+    width: var(--side-width) !important;
+    transition: 400ms;
+
+    &.collapsed {
+      width: var(--side-width-min) !important;
+    }
+  }
+}

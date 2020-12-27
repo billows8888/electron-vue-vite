@@ -1,5 +1,6 @@
 import store from './store'
-const isdev = require('electron-is-dev')
+
+const isdev = process.env.NODE_ENV === 'development'
 
 export {
   store,
