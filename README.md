@@ -1,7 +1,8 @@
 # electron-vue-vite
 `Electron` + `vue3` + `vite` 整合
 
-#### [简书地址](https://www.jianshu.com/p/ee5ec23d4716)
+## 详细介绍
+- [简书地址](https://www.jianshu.com/p/ee5ec23d4716)
 
 ## How and Why
 - 写这个 Demo 项目主要有两个目的
@@ -51,3 +52,14 @@
 ---
 
 ![](https://raw.githubusercontent.com/caoxiemeihao/electron-vue-vite/master/screenshot/800x600.png)
+
+---
+
+## 参考链接
+- vue3.0 ref 与 reactive
+  * https://zhuanlan.zhihu.com/p/85978064
+  * https://vue-composition-api-rfc.netlify.app/#ref-vs-reactive
+  * https://vue-composition-api-rfc.netlify.app/api.html
+  * https://www.cnblogs.com/jinzhenzong/p/12778729.html
+- vue Class Component
+  * https://class-component.vuejs.org/
